@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from src.db.database import get_items_collection
-from src.model.item import ItemIn, ItemOut
+from db.database import get_items_collection
+from model.item import ItemIn, ItemOut
 from bson import ObjectId
 
 items_router = APIRouter()

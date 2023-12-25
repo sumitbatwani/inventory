@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from src.api.items import items_router
+from api.items import items_router
 
 app = FastAPI(title="Inventory Management")
 
